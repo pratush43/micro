@@ -13,7 +13,7 @@ pipeline {
     }
         post {
         always {
-            archiveArtifacts artifacts: '*.dll', onlyIfSuccessful: true
+            archiveArtifacts artifacts: 'docs/_framework/_bin/*.dll', onlyIfSuccessful: true
     }
     }
 }
