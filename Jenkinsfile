@@ -1,7 +1,7 @@
 pipeline {
   agent {
       	docker {
-        	image 'pratush43/sdk:latest'
+        	image 'bitnami/aspnet-core'
         }
       }
     stages {
