@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node{
-    label 'micro'
+    label 'micro1'
     } 
   }
     stages {
