@@ -1,9 +1,9 @@
 pipeline {
   agent {
-    node{
-    label 'micro1'
-    } 
-  }
+      	docker {
+        	image 'pratush43/sdk:latest'
+        }
+      }
     stages {
         stage('Build') {
             steps {
